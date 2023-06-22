@@ -11,11 +11,11 @@
 
 body {
     font-family: "TT Lakes";
-    
+    line-height: 40px;
 }
 
 body, a, li, ol, ul, menu,
-section, aside, h1 {
+section, aside, h1, pre, p {
     margin: 0;
     padding: 0;
 }

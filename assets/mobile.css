@@ -27,7 +27,7 @@
     .img-burger {
         width: 40px;
         height: 40px;
-        background-image: url("../images/burger.svg");
+        background-image: url("images/burger.svg");
         background-repeat: no-repeat;
         
     }
@@ -43,22 +43,22 @@
     .img-repair {
         width: 40px;
         height: 40px;
-        background-image: url("../images/repair.svg");
+        background-image: url("images/repair.svg");
         background-repeat: no-repeat;
         margin-left: 32px;
     }
 
     .img-repair::before {
-    content: url("../images/divider.svg");
+    content: url("images/divider.svg");
     position: relative;
-    right: 16px;
+    right: 36px;
     top: 4px;
     }
 
     .img-checkstatus {
         width: 40px;
         height: 40px;
-        background-image: url("../images/checkstatus.svg");
+        background-image: url("images/checkstatus.svg");
         background-repeat: no-repeat;
         margin-left: 16px;
     }
@@ -78,7 +78,7 @@
     }
 
     .scroll__title::before {
-        content: url("../images/highlight.svg");
+        content: url("images/highlight.svg");
         position: relative;
         left: -17px;
         top: 12px;
@@ -115,11 +115,18 @@
         background-color: #FFFFFF;
     }
 
-    .box__text {
+    .content-box {
+        padding-top: 24px;
+    }
+
+    .box pre {
+        width: 288px;
         height: 90px;
+        font-family: "TT Lakes";
+        white-space: pre-wrap;
         padding-left: 16px;
-        padding-right: 16px;
         overflow: hidden;
+        line-height: 18px;
     }
 
 
@@ -132,7 +139,7 @@
 
 
     .box__read-more::before {
-        content: url("../images/icon.svg");
+        content: url("images/icon.svg");
         position: relative;
         right: 10px;
     }
