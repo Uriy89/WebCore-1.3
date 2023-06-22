@@ -1,130 +1,132 @@
 @media screen and (min-width: 1120px) {    
 
-/*      Header      */
+    /*      Header      */
+        
+    .cente-box,
+
+    .menu__img-logo,
+    .img-burger {
+        display: none;
+    }
     
-.images768,
-.menu__img-logo,
-.img-burger {
-    display: none;
-}
-
-
-.img-checkstatus {
-    width: 40px;
-    height: 40px;
-    background-image: url("../images/checkstatus.svg");
-    background-repeat: no-repeat;
-    position: absolute;
-    right: 32px;
-    top: 40px;
-}   
-
-.img-checkstatus::before {
-    content: "Статус ремонта";
-    white-space: nowrap;
-    position: relative;
-    right: 117px;
-    top: 10px;
-}
-
-.img-repair {
-    width: 40px;
-    height: 40px;
-    background-image: url("../images/repair.svg");
-    background-repeat: no-repeat;
-    position: absolute;
-    right: 232px;
-    top: 40px;
-}
-
-.img-repair::after {
-    content: "Оставить заявку";
-    white-space: nowrap;
-    position: relative;
-    right: 117px;
-    top: 10px;
-}
-
-
-/*      Section       */
-
-.scroll-main {
-    background-color: #F8F8F8;
-}
-
-.scroll__title {
-    padding-left: 16px;
-    padding-top: 24px;
-}
-
-.scroll__title::before {
-    content: url("../images/highlight.svg");
-    position: relative;
-    left: -17px;
-    top: 12px;
-}
-
-.menu-list {
-    margin-top: 24px;
-    margin-left: 16px;
-}
-
-.menu-list__items {
-    display: flex;
-    overflow-x: auto;
-    white-space: nowrap;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.menu-list__item a {
-    color: #7E7E82;
-}
-
-.menu-list__item  {
-    border: 2px solid transparent;
-    border-radius: 6px;
-    padding: 8px 16px;
-}
-
-.menu-list__item + .menu-list__item {
-    margin-left: 16px;
-}
-
-.menu-list__item:hover {
-    border: 2px solid #B8FFEC;
-    border-radius: 6px;
-    background-color: #FFFFFF;
-}
-
-.content-box {
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 32px;
-    align-items: flex-start;
-}
-
-.box__text {
-    width: 490px;
-    height: 160px;
-    padding-left: 16px;
-    padding-right: 16px;
-    overflow: hidden;
-    margin-top: 0;
-}
-
-
-.box__read-more {
-    font-size: 16px;
-    color: #1B1C21;
-    padding-left: 32px;
-}
-
-
-.box__read-more::before {
-    content: url("../images/icon.svg");
-    position: relative;
-    right: 10px;
-}
-
-}
+    
+    .img-checkstatus {
+        width: 40px;
+        height: 40px;
+        background-image: url("../images/checkstatus.svg");
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 72px;
+        top: 40px;
+    }   
+    
+    .img-checkstatus::before {
+        content: "Статус ремонта";
+        white-space: nowrap;
+        position: relative;
+        right: 125px;
+        top: 10px;
+    }
+    
+    .img-repair {
+        width: 40px;
+        height: 40px;
+        background-image: url("../images/repair.svg");
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 302px;
+        top: 40px;
+    }
+    
+    .img-repair::after {
+        content: "Оставить заявку";
+        white-space: nowrap;
+        position: relative;
+        right: 135px;
+        top: 10px;
+    }
+    
+    
+    /*      Section       */
+    
+    .scroll-main {
+        background-color: #F8F8F8;
+    }
+    
+    .scroll__title {
+        padding-left: 16px;
+        padding-top: 24px;
+    }
+    
+    .scroll__title::before {
+        content: url("../images/highlight.svg");
+        position: relative;
+        left: -17px;
+        top: 12px;
+    }
+    
+    .menu-list {
+        margin-top: 24px;
+        margin-left: 16px;
+    }
+    
+    .menu-list__items {
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .menu-list__item a {
+        color: #7E7E82;
+    }
+    
+    .menu-list__item  {
+        border: 2px solid transparent;
+        border-radius: 6px;
+        padding: 8px 16px;
+    }
+    
+    .menu-list__item + .menu-list__item {
+        margin-left: 16px;
+    }
+    
+    .menu-list__item:hover {
+        border: 2px solid #B8FFEC;
+        border-radius: 6px;
+        background-color: #FFFFFF;
+    }
+    
+    .content-box {
+        display: flex;
+        padding-top: 32px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+    }
+    
+    .box__text {
+        width: 490px;
+        height: 160px;
+        padding-left: 16px;
+        padding-right: 16px;
+        overflow: hidden;
+        margin-top: 0;
+    }
+    
+    
+    .box__read-more {
+        font-size: 16px;
+        color: #1B1C21;
+        padding-left: 32px;
+    }
+    
+    
+    .box__read-more::before {
+        content: url("../images/icon.svg");
+        position: relative;
+        right: 10px;
+    }
+    
+    }

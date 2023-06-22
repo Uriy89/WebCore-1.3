@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 321px) {
     
 /*      Header      */
 
@@ -13,16 +13,26 @@
         align-items: center;
     }
 
+    .right-box {
+        display: flex;
+    }
+
+    .left-box {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin-left: 16px;
+    }
 
     .img-burger {
         width: 40px;
         height: 40px;
         background-image: url("../images/burger.svg");
         background-repeat: no-repeat;
-        margin-left: 16px;
+        
     }
 
-    .images768 {
+    .cente-box {
         display: none;
     }
 

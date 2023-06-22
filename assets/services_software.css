@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1120px) {
+@media screen and (min-width: 321px) and (max-width: 1121px) {
     
 /*      Header      */
 
@@ -9,17 +9,27 @@
 menu {
     height: 88px;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
 }
 
+.right-box {
+    display: flex;
+}
+
+.left-box {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
 
 .img-burger {
     width: 40px;
     height: 40px;
     background-image: url("../images/burger.svg");
     background-repeat: no-repeat;
-    margin-left: 16px;
+ 
 }
 
 
@@ -32,6 +42,7 @@ menu {
 
 .menu__img-logo {
     margin-left: 40px;
+    z-index: 1;
 }
 
 .img-call {
@@ -42,11 +53,9 @@ menu {
 }
     
 
-.images768 {
-    width: 156px;
+.cente-box {
     display: flex;
     margin-left: 250px;
-    justify-content: space-between;
 }
 
 .img-chat {
@@ -54,6 +63,7 @@ menu {
     height: 40px;
     background-image: url("../images/chat.svg");
     background-repeat: no-repeat;
+    margin-left: 16px;
 }
 
 .img-profile {
@@ -61,6 +71,7 @@ menu {
     height: 40px;
     background-image: url("../images/profile.svg");
     background-repeat: no-repeat;
+    margin-left: 16px;
 }
 
 
@@ -85,6 +96,7 @@ menu {
     background-image: url("../images/checkstatus.svg");
     background-repeat: no-repeat;
     margin-left: 16px;
+    margin-right: 40px;
 }
 
 /*      Section       */
