@@ -1,0 +1,134 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    
+/*      Header      */
+
+    .header {
+        background: #FFFFFF;
+    }
+
+    menu {
+        height: 88px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+
+    .img-burger {
+        width: 40px;
+        height: 40px;
+        background-image: url("../images/burger.svg");
+        background-repeat: no-repeat;
+        margin-left: 16px;
+    }
+
+    .images768 {
+        display: none;
+    }
+
+    .menu__img-logo {
+        margin-left: 16px;
+    }
+
+    .img-repair {
+        width: 40px;
+        height: 40px;
+        background-image: url("../images/repair.svg");
+        background-repeat: no-repeat;
+        margin-left: 32px;
+    }
+
+    .img-repair::before {
+    content: url("../images/divider.svg");
+    position: relative;
+    right: 16px;
+    top: 4px;
+    }
+
+    .img-checkstatus {
+        width: 40px;
+        height: 40px;
+        background-image: url("../images/checkstatus.svg");
+        background-repeat: no-repeat;
+        margin-left: 16px;
+    }
+
+
+
+    /*      Section       */
+
+    .scroll-main {
+        background-color: #F8F8F8;
+    }
+
+    .scroll__title {
+        padding-left: 16px;
+        padding-top: 24px;
+        
+    }
+
+    .scroll__title::before {
+        content: url("../images/highlight.svg");
+        position: relative;
+        left: -17px;
+        top: 12px;
+    }
+
+    .menu-list {
+        margin-top: 24px;
+        margin-left: 16px;
+    }
+
+    .menu-list__items {
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .menu-list__item a {
+        color: #7E7E82;
+    }
+
+    .menu-list__item  {
+        border: 2px solid transparent;
+        border-radius: 6px;
+        padding: 8px 16px;
+    }
+
+    .menu-list__item + .menu-list__item {
+        margin-left: 16px;
+    }
+
+    .menu-list__item:hover {
+        border: 2px solid #B8FFEC;
+        border-radius: 6px;
+        background-color: #FFFFFF;
+    }
+
+    .box__text {
+        height: 90px;
+        padding-left: 16px;
+        padding-right: 16px;
+        overflow: hidden;
+    }
+
+
+    .box__read-more {
+        font-size: 16px;
+        color: #1B1C21;
+        padding-left: 32px;
+        font-weight: bold;
+    }
+
+
+    .box__read-more::before {
+        content: url("../images/icon.svg");
+        position: relative;
+        right: 10px;
+    }
+
+    .content__img {
+        padding-top: 16px;
+    }
+
+}
