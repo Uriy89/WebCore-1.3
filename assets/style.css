@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: "TT Lakes";
-    src: url("../fonts/TTLakes-Light.ttf") format("ttf"),
-        url("../fonts/TTLakes-Light.woff") format("woff");
+    src: url("fonts/TTLakes-Light.ttf") format("ttf"),
+        url("fonts/TTLakes-Light.woff") format("woff");
     
 }
 

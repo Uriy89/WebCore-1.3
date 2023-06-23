@@ -86,6 +86,7 @@
         border: 2px solid transparent;
         border-radius: 6px;
         padding: 8px 16px;
+        cursor: pointer;
     }
     
     .menu-list__item + .menu-list__item {
@@ -122,6 +123,7 @@
         font-size: 16px;
         color: #1B1C21;
         padding-left: 32px;
+        font-weight: bold;
     }
     
     
@@ -132,8 +134,10 @@
     }
 
     .content__img {
+        width: 530px;
+        height: 280px;
         border-radius: 5px;
-        padding-right: 16px;
+        padding-right: 50px;
     }
     
     }
